@@ -82,8 +82,8 @@ public:
 
 int main(int argc, char const *argv[])
 {
-    auto solotion = Solution();
-    auto result = solotion.isNumber("0e");
+    Solution solotion = Solution();
+    bool result = solotion.isNumber("0e");
     std::cout << result << std::endl;
     return 0;
 }

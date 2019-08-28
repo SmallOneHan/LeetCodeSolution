@@ -21,8 +21,8 @@ public:
 
 int main(int argc, char const *argv[])
 {
-    auto solotion = Solution();
-    auto result = solotion.isPalindrome(11);
+    Solution solotion = Solution();
+    bool result = solotion.isPalindrome(11);
     std::cout << result << std::endl;
     return 0;
 }

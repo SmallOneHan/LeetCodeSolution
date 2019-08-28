@@ -11,7 +11,7 @@ public:
         long result = 0;
         int symbol = 1;
         bool flag = true;
-        for (auto ch : str) //ch依次取的是str里面的字符,直到取完为止
+        for (char ch : str) //ch依次取的是str里面的字符,直到取完为止
         {
             if (flag && ch == ' ')
             {
@@ -55,8 +55,8 @@ public:
 int main(int argc, char const *argv[])
 {
     string str = "43";
-    auto solution = Solution();
-    auto result = solution.myAtoi(str);
+    Solution solution = Solution();
+    int result = solution.myAtoi(str);
     cout << result << endl;
     return 0;
 }

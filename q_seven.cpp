@@ -18,8 +18,8 @@ public:
 
 int main(int argc, char const *argv[])
 {
-    auto solotion = Solution();
-    auto result = solotion.reverse(345);
+    Solution solotion = Solution();
+    int result = solotion.reverse(345);
     std::cout << result << std::endl;
     return 0;
 }
