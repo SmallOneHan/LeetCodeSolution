@@ -7,7 +7,7 @@
             "label": "Compile Current File",
             "type": "shell",
             "command": "g++",
-            "args": ["-g", "${file}", "-o", "main.out"]
+            "args": ["-std=c++11", "-g", "${file}", "-o", "main.out"]
         },
         {
             "label": "Compile And Run",
